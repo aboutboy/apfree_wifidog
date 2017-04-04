@@ -1,7 +1,7 @@
 include $(TOPDIR)/rules.mk
 
-PKG_NAME:=apfree_wifidog
-PKG_VERSION:=2.03.1061
+PKG_NAME:=wifidog4butongwifi
+PKG_VERSION:=2.03.1062
 PKG_RELEASE=1
 
 
@@ -10,7 +10,7 @@ PKG_MAINTAINER:=Dengfeng Liu<liudengfeng@kunteng.org>
 PKG_LICENSE_FILES:=COPYING
 
 PKG_SOURCE_PROTO:=git
-PKG_SOURCE_URL:=https://github.com/aboutboy/wifidog4butong.git
+PKG_SOURCE_URL:=https://github.com/aboutboy/wifidog4butongwifi.git
 PKG_SOURCE_SUBDIR:=$(PKG_NAME)-$(PKG_VERSION)
 PKG_SOURCE_VERSION:=$(PKG_VERSION)
 PKG_SOURCE:=$(PKG_NAME)-$(PKG_VERSION)-$(PKG_SOURCE_VERSION).tar.gz
