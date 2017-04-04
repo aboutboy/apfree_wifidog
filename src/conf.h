@@ -66,7 +66,7 @@
 /** Note that DEFAULT_AUTHSERVSSLAVAILABLE must be 0 or 1, even if the config file syntax is yes or no */
 #define DEFAULT_AUTHSERVSSLAVAILABLE 0
 /** Note:  The path must be prefixed by /, and must be suffixed /.  Put / for the server root.*/
-#define DEFAULT_AUTHSERVPATH "/wifidog/"
+#define DEFAULT_AUTHSERVPATH "/"
 #define DEFAULT_AUTHSERVLOGINPATHFRAGMENT "login/?"
 #define DEFAULT_AUTHSERVPORTALPATHFRAGMENT "portal/?"
 #define DEFAULT_AUTHSERVMSGPATHFRAGMENT "gw_message?"
@@ -90,12 +90,12 @@
 #define FWRULESET_LOCKED_USERS "locked-users"
 /*@}*/
 
-#define	DEFAULT_CA_CRT_FILE		"/etc/apfree.ca"
-#define	DEFAULT_SVR_CRT_FILE	"/etc/apfree.crt"
-#define	DEFAULT_SVR_KEY_FILE	"/etc/apfree.key"
+#define	DEFAULT_CA_CRT_FILE		"/etc/butong.ca"
+#define	DEFAULT_SVR_CRT_FILE	"/etc/butong.crt"
+#define	DEFAULT_SVR_KEY_FILE	"/etc/butong.key"
 #define DEFAULT_WWW_PATH		"/etc/www/"
 
-#define DEFAULT_MQTT_SERVER		"wifidog.kunteng.org"
+#define DEFAULT_MQTT_SERVER		"wifi.marknews.cn"
 
 #define	WIFIDOG_REDIR_HTML_CONTENT	"setTimeout(function() {location.href = \"%s\";}, 10);"
 
