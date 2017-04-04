@@ -10,7 +10,7 @@ local m, s, o
 local function get_status()
 	if luci.sys.call("pidof %s >/dev/null" %{packageName}) == 0 then
 		local UpTime = luci.util.exec("wdctl status | grep Uptime | cut -d ' ' -f 2-6")
-		local StatusUrl = "http://" .. luci.http.getenv('SERVER_NAME') .. ":2060/wifidog/status"	
+		local StatusUrl = "http://" .. luci.http.getenv('SERVER_NAME') .. ":2020/wifidog/status"	
 		
 		return translate("<span id=\"wifidog-status\" style=\"color:green;margin-left:50px\">已运行 " .. UpTime .."</span>") -- .."<a target=\"_blank\" href=" .. StatusUrl .. "> 查看更多</a>")
 	else
