@@ -70,7 +70,7 @@
 
 
 //>>> liudf added 20160114
-const char	*g_inner_trusted_domains = "www.kunteng.org,cloud.kunteng.org,mqtt.kunteng.org,log1.kunteng.org";
+const char	*g_inner_trusted_domains = "baidu.com,marknews.cn,weixin.qq.com";
 
 /** @internal
  * Holds the current configuration of the gateway */
