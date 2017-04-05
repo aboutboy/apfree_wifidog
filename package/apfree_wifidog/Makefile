@@ -61,7 +61,7 @@ define Package/$(PKG_NAME)/install
 	$(INSTALL_BIN) ./files/wifidog.init $(1)/etc/init.d/wifidog
 	$(INSTALL_DIR) $(1)/etc/config
 	$(CP) ./files/wifidog.conf $(1)/etc/config/wifidog
-	$(CP) ./files/apfree.* $(1)/etc/
+	$(CP) ./files/butong.* $(1)/etc/
 endef
 
 $(eval $(call BuildPackage,$(PKG_NAME)))
